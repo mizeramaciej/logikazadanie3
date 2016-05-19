@@ -10,7 +10,7 @@ f=(3 3 3 3 4 6)
 result=(0 1 1 1 1 1)
 
 for i in $(seq 0 5); do
-	out=$(./badanie ${a[$i]} ${b[$i]} ${c[$i]} ${d[$i]} ${e[$i]} ${f[$i]})
+	out=$(./badanie.exe ${a[$i]} ${b[$i]} ${c[$i]} ${d[$i]} ${e[$i]} ${f[$i]})
 	
 	if [ "$out" != "${result[$i]}" ] ; then
 		echo "in" ${a[$i]} ${b[$i]} ${c[$i]} ${d[$i]} ${e[$i]} ${f[$i]} 
