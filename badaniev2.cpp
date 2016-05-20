@@ -19,8 +19,9 @@ int main(int argcount, char ** args){
 		return 0;
 	}
 	
-	float T[argcount];
-	for(int i=0; i<argcount; T[i]=atof(args[++i]) );
+	float T[7];
+	for(int i=0; i<7; i++ )
+		T[i]=atof(args[i]);
 	
 	cout<<"Parametry:";
 	for(int i=1; i<argcount;i++ )
