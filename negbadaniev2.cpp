@@ -33,6 +33,6 @@ int main(int argcount, char ** args){
 	}else
 		cout<<"Wyniki badania nie mieszcza sie w normiach.";
 	
-	getchar();
+	
 	return 0;
 }
