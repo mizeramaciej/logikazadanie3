@@ -20,8 +20,8 @@ int main(int argcount, char ** args){
 	}
 	
 	float T[argcount];
-	for(int i=0; i<argcount; T[i]=atof(args[++i]) );
-	
+	for(int i=0; i<argcount; i++ )
+		T[i]=atof(args[i]);
 	cout<<"Parametry:";
 	for(int i=1; i<argcount;i++ )
 		cout<<endl<<T[i];
